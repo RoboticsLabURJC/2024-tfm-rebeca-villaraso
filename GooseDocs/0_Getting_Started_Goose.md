@@ -309,7 +309,8 @@ for idx in np.random.randint(0, len(test_dataset), min(N_SAMPLES, len(test_datas
 
         plt.show()
 The results should look similar to this:
- 
+ ![image](https://github.com/RoboticsLabURJC/2024-tfm-rebeca-villaraso/assets/39853010/2504d6a4-9a99-454a-92ea-e7ab5074cca4)
+
 
 
 
