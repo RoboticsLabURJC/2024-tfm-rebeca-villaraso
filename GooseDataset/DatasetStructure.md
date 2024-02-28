@@ -1,4 +1,4 @@
-Dataset Structure
+# Dataset Structure
 All ROS bags in the GOOSE DB are organized in the hierarchical structure of setup, scenario and sequence. This hierarchy allows users to filter the recorded ROS bags according to their needs. The hiearachy levels are defined in the following way:
 
 A setup describes a robotic platform with its sensor suite. The sensor setup remains consistent among all scenarios within the same setup. When the position and combination of sensors are changed on the same robotic platform, then the recordings done from there on should be grouped in a new setup.
@@ -6,57 +6,15 @@ A scenario contains all data recorded in the same measurement run. Global condit
 A sequence corresponds to one ROS bag and includes a YAML file with metadata. The recording length of each sequence varies as well as the number of annotated frames in a sequence. Each sequence is categorized into one scenario and setup.
 The directory tree of the GOOSE dataset could look at follows.
 
-├── setups
-    ├── mucar3
-    ├── metadata.yml
-    │   ├── scenario01
-    │   │   ├── metadata.yml
-    │   │   ├── sequence01
-    │   │   │   ├── 2adccef9-e281-4a47-9ade-16e49efa4007.bag
-    │   │   │   └── metadata.yml
-    │   │   ├── sequence02
-    │   │   │   ├── 3e1edb48-5f18-48e8-a86d-11351fdb9d0c.bag
-    │   │   │   └── metadata.yml
-    │   │   ├── sequence03
-    │   │   │   ├── b142123d-9c9b-46ce-8c02-5cd407dc9712.bag
-    │   │   │   └── metadata.yml
-    │   ├── scenario02
-    │   │   ├── metadata.yml
-    │   │   ├── sequence03
-    │   │   │   ├── 901b5784-8a23-42d7-8dcd-e0fc9c28bd53.bag
-    │   │   │   └── metadata.yml
+![image](https://github.com/RoboticsLabURJC/2024-tfm-rebeca-villaraso/assets/39853010/31b9f559-2182-4f6e-bd09-5ba915dfd229)
+
 In addition, we provide ready-to-use-data for typical deep learning pipelines as described in the following sections.
 
 2D Image Annotations
 The directory tree for the image dataset is as follows:
 
-├── goose_label_mapping.csv
-├── images
-│   ├── test
-│   │   ├── 2022-07-07_campus
-│   │   ├── ...
-│   │   └── 2023-07-03_campus
-│   ├── train
-│   │   ├── 2022-07-22_touareg_flight
-│   │   ├── ...
-│   │   └── 2023-05-24_touareg_neubiberg_cloudy
-│   └── val
-│       ├── 2022-07-22_flight
-│       ├── ...
-│       └── 2023-05-17_neubiberg_sunny
-└── labels
-    ├── test
-    │   ├── 2022-07-07_campus
-    │   ├── ...
-    │   └── 2023-07-03_campus
-    ├── train
-    │   ├── 2022-07-22_touareg_flight
-    │   ├── ...
-    │   └── 2023-05-24_touareg_neubiberg_cloudy
-    └── val
-        ├── 2022-07-22_flight
-        ├── ...
-        └── 2023-05-17_neubiberg_sunny
+![image](https://github.com/RoboticsLabURJC/2024-tfm-rebeca-villaraso/assets/39853010/bc7069cb-692c-40dc-83c8-1da4af80357a)
+
 The ìmages directory contains one image per scene:
 
 <date>_<title>_<framenumber>_<timestamp>_windshield_vis.png (RGB input Image)
@@ -70,33 +28,8 @@ See our experiment section for an example on how to read the data.
 3D Point Cloud Annotations
 The directory tree for the point cloud dataset is as follows:
 
-├── goose_label_mapping.csv
-├── velodyne
-│   ├── test
-│   │   ├── 2022-07-07_campus
-│   │   ├── ...
-│   │   └── 2023-07-03_campus
-│   ├── train
-│   │   ├── 2022-07-22_touareg_flight
-│   │   ├── ...
-│   │   └── 2023-05-24_touareg_neubiberg_cloudy
-│   └── val
-│       ├── 2022-07-22_flight
-│       ├── ...
-│       └── 2023-05-17_neubiberg_sunny
-└── labels
-    ├── test
-    │   ├── 2022-07-07_campus
-    │   ├── ...
-    │   └── 2023-07-03_campus
-    ├── train
-    │   ├── 2022-07-22_touareg_flight
-    │   ├── ...
-    │   └── 2023-05-24_touareg_neubiberg_cloudy
-    └── val
-        ├── 2022-07-22_flight
-        ├── ...
-        └── 2023-05-17_neubiberg_sunny
+![image](https://github.com/RoboticsLabURJC/2024-tfm-rebeca-villaraso/assets/39853010/ee185333-d2a6-4d61-b136-3206bc340102)
+
 The velodyne directory contains one point cloud per scene:
 
 <date>_<title>_<framenumber>_<timestamp>_velodyne.bin (one LiDAR revolution)
