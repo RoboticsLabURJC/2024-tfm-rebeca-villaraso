@@ -6,3 +6,8 @@ Firstly, the images are parsed into the dictionaries and the Datadicts are creat
 Then the Trainer is configured and the model is loaded. In this case, the pre-trained weights with the Cityscapes datasets are loaded.
 
 Lastly the trainig is started.
+
+
+# Super Gradients documentation and tutorial
+
+https://docs.deci.ai/super-gradients/latest/documentation/source/welcome.html
