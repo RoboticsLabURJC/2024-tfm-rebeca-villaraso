@@ -16,7 +16,6 @@ def __check_labels(img_path: str, lbl_path: str) -> bool:
             return False, None
         names.append(lbl_name)
     return True, names
-
 def __goose_datadict_folder(img_path: str, lbl_path: str):
     '''
     Create a data Dictionary with image paths
