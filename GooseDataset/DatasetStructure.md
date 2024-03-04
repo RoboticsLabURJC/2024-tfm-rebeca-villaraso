@@ -1,3 +1,12 @@
+# Pytorch Dataset
+The GOOSE Dataset is divided into three subcategories: train, test and validation. The first step is to read the data from the dataset folder.
+
+In the following example this is achieved in two main steps:
+
+Parse images from root folder into (three) python dictionaries with images paths and information.
+Create Pytorch Dataset objects to load the images and use them to train models or inference.
+Additionally, the dataset also has a mapping CSV File which contains information about the classes such as label id, class name or whether the class has instances or not (thing or stuff).
+
 # Dataset Structure
 All ROS bags in the GOOSE DB are organized in the hierarchical structure of setup, scenario and sequence. This hierarchy allows users to filter the recorded ROS bags according to their needs. The hiearachy levels are defined in the following way:
 
