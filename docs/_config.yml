@@ -16,15 +16,15 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "TFG Adrián Madinabeitia Portanova"
+title                    : "TFM Artificial Vision - Rebeca Villarraso"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Adrián Madinabeitia Portanova"
-description              : "Neural networks in drones"
+name                     : "Rebeca Villarraso"
+description              : "Robot perception with Neural Networks"
 
 url                      : https://roboticslaburjc.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : https://github.com/RoboticsLabURJC/2023-tfg-adrian-madinabeitia # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : https://github.com/RoboticsLabURJC/2024-tfm-rebeca-villaraso # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/logo.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -112,11 +112,11 @@ social:
 
 # Site Author
 author:
-  name             : "Adrián Madinabeitia Portanova"
+  name             : "Rebeca Villarraso"
   avatar           : "/assets/images/foto.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Robotics Software Engineer"
-  location         : "Madrid, Spain"
-  email            : "portanova2002@gmail.com"
+  bio              : "Biomedical Engineer"
+  location         : "Barcelona, Spain"
+  email            : "xxx@gmail.com"
   links:
     #- label: "Email"
     #  icon: "fas fa-fw fa-envelope-square"
@@ -136,7 +136,7 @@ author:
 
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: https://www.linkedin.com/in/madinabeip/
+      url: "https://www.linkedin.com/in/rebeca-v-6bb95358/"
       
 #    - label: "Instagram"
 #      icon: "fab fa-fw fa-instagram"
@@ -154,7 +154,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/madinabeip"
+      url: "https://github.com/RVillarraso"
 
       # url:
 #    - label: "GitLab"
@@ -165,7 +165,7 @@ footer:
       # url:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: https://www.linkedin.com/in/madinabeip/
+      url: "https://www.linkedin.com/in/rebeca-v-6bb95358/"
 
 
 # Reading Files
