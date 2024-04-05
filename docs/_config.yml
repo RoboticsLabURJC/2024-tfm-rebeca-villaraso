@@ -113,7 +113,7 @@ social:
 # Site Author
 author:
   name             : "Rebeca Villarraso"
-  avatar           : "/assets/images/39853010.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/39853010.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Computer Vision Testing Analyst"
   location         : "Barcelona, Spain"
 #  email            : "rebekka_b.simo.alvarez@gmail.com"
