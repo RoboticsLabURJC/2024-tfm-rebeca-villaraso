@@ -7,5 +7,5 @@
     #### 3. Train model on Cityscapes:
       Run: 2_train.ipynb
     #### 4. Evaluation
-    1. Run: evaluation/eval_on_val.ipynb
+      Run: evaluation/eval_on_val.ipynb
   This will run the pretrained model on all images in Cityscapes val, compute and print the loss, and save the predicted segmentation images in deeplabv3/training_logs/model_eval_val.
