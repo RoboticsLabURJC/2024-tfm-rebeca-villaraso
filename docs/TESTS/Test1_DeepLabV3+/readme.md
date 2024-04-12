@@ -2,7 +2,9 @@
 - Dataset: instance_level_human_parsing
 - Documentation: https://arxiv.org/abs/1811.12596
 - Based on: https://github.com/soeaver/Parsing-R-CNN
-- Jupyter Notebook Developed: Test1_DeepLabV3+.ipynb 
+- Jupyter Notebook Developed: Test1_DeepLabV3+.ipynb
+
+---
 
 ### DeepLabV3+ Model
 
