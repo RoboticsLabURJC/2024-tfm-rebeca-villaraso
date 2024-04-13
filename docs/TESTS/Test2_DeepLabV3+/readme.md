@@ -1,5 +1,5 @@
 ## TEST 2. DeepLabV3+ Semantic segmentation om Cityscapes dataset
-- Dataset: Cityscapes
+- Dataset: Cityscapes https://www.cityscapes-dataset.com/
 - Documentation: https://arxiv.org/abs/1811.12596
 - Based on: https://github.com/fregu856/deeplabv3
 - Jupyter Notebook Developed: see the following sections
