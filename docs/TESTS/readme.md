@@ -1,7 +1,6 @@
 - ### TEST 1. DeepLabV3+ on "instance_level_human_parsing" dataset
 - ### TEST 2. DeepLabV3+ on "Cityscapes" dataset
 - ### TEST 3. GANav-Offroad repository reproduction on "RELLIS-3D" dataset grouped in 6 categories.
-- ### TEST 4.
--     4.1 DeepLabV3+ on "RELLIS-3D" grouped in 6 categories.
--     4.2 DeepLabV3+ on "RELLIS-3D" with 20 labels.
+- ### TEST 4.1 DeepLabV3+ on "RELLIS-3D" grouped in 6 categories.
+- ### TEST 4.2 DeepLabV3+ on "RELLIS-3D" with 20 labels.
 
