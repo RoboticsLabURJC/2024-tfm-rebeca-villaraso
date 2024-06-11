@@ -3,4 +3,4 @@
 - ### TEST 3. GANav-Offroad repository reproduction on "RELLIS-3D" dataset grouped in 6 categories.
 - ### TEST 4.1. DeepLabV3+ on "RELLIS-3D" grouped in 6 categories.
 - ### TEST 4.2. DeepLabV3+ on "RELLIS-3D" with 20 labels.
-
+- ### TEST 5. DeepLabV3+ on "Goose" with 22 labels.
