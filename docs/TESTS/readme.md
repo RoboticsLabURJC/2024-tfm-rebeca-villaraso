@@ -8,5 +8,6 @@
 - ### TEST 6. DeepLabV3+ on "RELLIS-3D" with 20 labels. Metrics to evaluate semantic segmentation.
   - #### TEST 6.1. DeepLabV3+ on "Rellis-3D" with 20 labels and semantic segmentations metrics. Part I
   - #### TEST 6.2. DeepLabV3+ on "Rellis-3D" with 20 labels and semantic segmentations metrics. Part II
+  - ### TEST Metrics. Tutorial of semantc segmentation metrics.
 - ### TEST 7. UNET on "RELLIS-3D" with 20 labels + Metrics.
 - ### TEST 8. VGG16 on "RELLIS-3D" with 20 labels + Metrics.
