@@ -2,9 +2,11 @@
 - ### TEST 2. DeepLabV3+ on "Cityscapes" dataset
 - ### TEST 3. GANav-Offroad repository reproduction on "RELLIS-3D" dataset grouped in 6 categories.
 - ### TEST 4. DeepLabV3+ on "RELLIS-3D".
-  - ### TEST 4.1. DeepLabV3+ on "RELLIS-3D" grouped in 6 categories.
-  - ### TEST 4.2. DeepLabV3+ on "RELLIS-3D" with 20 labels.
+  - #### TEST 4.1. DeepLabV3+ on "RELLIS-3D" grouped in 6 categories.
+  - #### TEST 4.2. DeepLabV3+ on "RELLIS-3D" with 20 labels.
 - ### TEST 5. DeepLabV3+ on "Goose" with 22 labels.
 - ### TEST 6. DeepLabV3+ on "RELLIS-3D" with 20 labels. Metrics to evaluate semantic segmentation.
+  - #### TEST 6.1. DeepLabV3+ on "Rellis-3D" with 20 labels and semantic segmentations metrics. Part I
+  - #### TEST 6.2. DeepLabV3+ on "Rellis-3D" with 20 labels and semantic segmentations metrics. Part II
 - ### TEST 7. UNET on "RELLIS-3D" with 20 labels + Metrics.
 - ### TEST 8. VGG16 on "RELLIS-3D" with 20 labels + Metrics.
